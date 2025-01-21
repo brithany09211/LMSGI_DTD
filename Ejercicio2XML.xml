@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<cataleg>
+
+    <!-- Llista d'actors -->
+    <llista_actors>
+        <actor id="2006">
+            <nom>Brithany Silva</nom>
+            <edat>65</edat>
+        </actor>
+        <actor id="2007">
+            <nom>Cillian Murphy</nom>
+            <edat>47</edat>
+        </actor>
+    </llista_actors>
+
+    <!-- Llista de pel·lícules -->
+    <llista_pelicules>
+        <pelicula id="2008">
+            <titol>Sherk</titol>
+            <director>Juan Valdez</director>
+            <any>1994</any>
+            <actors>
+                <actor_ref ref="2008"/>
+            </actors>
+        </pelicula>
+        <pelicula id="2009">
+            <titol>Barbie</titol>
+            <director>Marta Gomez</director>
+            <any>2010</any>
+            <actors>
+                <actor_ref ref="2007"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+
+    <!-- Llista de recomanacions de pel·lícules -->
+    <llista_recomanacions_pelicules>
+        <recomendacio ref="2008"/>
+        <recomendacio ref="2009"/>
+    </llista_recomanacions_pelicules>
+
+</cataleg>

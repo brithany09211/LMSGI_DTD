@@ -1,0 +1,12 @@
+<!DOCTYPE esdeveniments [ 
+<!-- elemento raíz -->
+<!ELEMENT esdeveniments (esdeveniment+)>
+<!ELEMENT esdeveniment (grup, lloc, data, entrada)>
+<!ELEMENT grup (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT entrada (#PCDATA)>
+
+<!-- llista d'atributs-->
+<!ATTLIST entrada gratuita (si|no) "no">
+]>
